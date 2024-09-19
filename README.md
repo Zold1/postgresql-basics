@@ -157,7 +157,7 @@ This repository contains an overview of basic PostgreSQL commands, installation 
   SELECT column1, column2 FROM tablename WHERE condition;
   ```
 
-## Query Clauses: LIMIT, OFFSET, FETCH, and IN
+## Query Clauses
 
 - **LIMIT Clause:**
   ```sql
@@ -174,6 +174,15 @@ This repository contains an overview of basic PostgreSQL commands, installation 
 - **IN Clause:**
   ```sql
   SELECT * FROM tablename WHERE column IN ('value1', 'value2', 'value3');
+  ```
+- **DISTINCT Clause:**
+  ```sql
+  SELECT DISTINCT column FROM tablename;
+  ```
+- **ORDER BY Clause:**
+  ```sql
+  SELECT * FROM tablename ORDER BY column ASC; -- Order results in ascending order (default)
+  SELECT * FROM tablename ORDER BY column DESC; -- Order results in descending order:
   ```
 
 ## Indexes and Constraints
