@@ -48,7 +48,7 @@ This repository contains an overview of basic PostgreSQL commands, installation 
   psql -U username -d dbname
   ```
 
-  Once connected, you will see the following help message:
+  Once connected, type `help` for help:
   ```
   You are using psql, the command-line interface to PostgreSQL.
   Type:  \copyright for distribution terms
