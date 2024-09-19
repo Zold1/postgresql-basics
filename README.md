@@ -77,6 +77,10 @@ This repository contains an overview of basic PostgreSQL commands, installation 
   ```sql
   CREATE USER username WITH PASSWORD 'password';
   ```
+- **Grant Superuser Privileges:**
+  ```sql
+  ALTER USER username WITH SUPERUSER;
+  ```
 - **Grant User Privileges:**
   ```sql
   GRANT ALL PRIVILEGES ON DATABASE dbname TO username;
