@@ -69,6 +69,29 @@ This repository contains an overview of basic PostgreSQL commands, installation 
   - `-h host` to connect to a specific host.
   - `-p port` to specify the port number.
 
+## Database Management
+
+- **Create Database:**
+  ```sql
+  CREATE DATABASE dbname;
+  ```
+- **Switch to Another Database:**
+  ```sql
+  \c dbname
+  ```
+- **List Databases:**
+  ```sql
+  \l
+  ```
+- **Delete Database:**
+  ```sql
+  DROP DATABASE dbname;
+  ```
+- **Execute SQL Script from a File:**
+  ```sql
+  \i /path/to/file.sql
+  ```
+
 ## Data Types
 
 | Data Type         | Description                                          |
