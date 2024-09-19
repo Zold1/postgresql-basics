@@ -81,6 +81,11 @@ This repository contains an overview of basic PostgreSQL commands, installation 
   ```sql
   GRANT ALL PRIVILEGES ON DATABASE dbname TO username;
   ```
+- **List Users:**
+  ```sql
+  \du
+  \du+ -- for more details
+  ```
 - **Delete User:**
   ```sql
   DROP USER username;
