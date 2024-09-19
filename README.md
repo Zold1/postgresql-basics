@@ -134,6 +134,10 @@ This repository contains an overview of basic PostgreSQL commands, installation 
       column3 DATE
   );
   ```
+- **View Table Schema:**
+  ```sql
+  \d tablename
+  ```
 
 ## Query Clauses: LIMIT, OFFSET, FETCH, and IN
 
