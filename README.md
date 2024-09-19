@@ -139,6 +139,24 @@ This repository contains an overview of basic PostgreSQL commands, installation 
   \d tablename
   ```
 
+## Data Manipulation
+- **Insert Data:**
+  ```sql
+  INSERT INTO tablename (column1, column2) VALUES (value1, value2);
+  ```
+- **Update Data:**
+  ```sql
+  UPDATE tablename SET column1 = value1 WHERE condition;
+  ```
+- **Delete Data:**
+  ```sql
+  DELETE FROM tablename WHERE condition;
+  ```
+- **Select Data:**
+  ```sql
+  SELECT column1, column2 FROM tablename WHERE condition;
+  ```
+
 ## Query Clauses: LIMIT, OFFSET, FETCH, and IN
 
 - **LIMIT Clause:**
