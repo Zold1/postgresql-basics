@@ -5,16 +5,19 @@ This repository contains an overview of basic PostgreSQL commands, installation 
 ## Table of Contents
 
 1. [Download and Install PostgreSQL](#download-and-install-postgresql)
-2. [Add PostgreSQL to PATH](#add-postgresql-to-path)
+2. [Add PostgreSQL to PATH](#add-postgresql-to-path-for-windows)
 3. [Create Shortcuts for pgAdmin and psql Shell](#create-shortcuts-for-pgadmin-and-psql-shell)
 4. [Basic PostgreSQL Commands](#basic-postgresql-commands)
-5. [Data Types](#data-types)
-6. [Table Management](#table-management)
-7. [Query Clauses](#query-clauses-limit-offset-fetch-and-in)
-8. [Indexes and Constraints](#indexes-and-constraints)
-9. [Transactions](#transactions)
-10. [Backup and Restore](#backup-and-restore)
-11. [Advanced Queries](#advanced-queries)
+5. [User and Role Management](#user-and-role-management)
+6. [Database Management](#database-management)
+7. [Data Types](#data-types)
+8. [Table Management](#table-management)
+9. [Data Manipulation](#data-manipulation)
+10. [Query Clauses](#query-clauses)
+11. [Indexes and Constraints](#indexes-and-constraints)
+12. [Transactions](#transactions)
+13. [Backup and Restore](#backup-and-restore)
+14. [Advanced Queries](#advanced-queries)
 
 ## Download and Install PostgreSQL
 
