@@ -63,15 +63,11 @@ This repository contains an overview of basic PostgreSQL commands, installation 
   psql --help
   ```
 
-- **View available psql commands in a session:**
-  - **SQL command help:**  
-    ```sql
-    \h
-    ```
-  - **psql-specific command help:**  
-    ```sql
-    \?
-    ```
+  This displays a list of available options and their descriptions, such as:
+  - `-U username` to specify the user.
+  - `-d dbname` to connect to a specific database.
+  - `-h host` to connect to a specific host.
+  - `-p port` to specify the port number.
 
 ## Data Types
 
