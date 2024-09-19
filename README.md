@@ -69,6 +69,20 @@ This repository contains an overview of basic PostgreSQL commands, installation 
   - `-h host` to connect to a specific host.
   - `-p port` to specify the port number.
 
+## User and Role Management
+- **Create User:**
+  ```sql
+  CREATE USER username WITH PASSWORD 'password';
+  ```
+- **Grant User Privileges:**
+  ```sql
+  GRANT ALL PRIVILEGES ON DATABASE dbname TO username;
+  ```
+- **Delete User:**
+  ```sql
+  DROP USER username;
+  ```
+
 ## Database Management
 
 - **Create Database:**
