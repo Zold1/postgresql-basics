@@ -156,6 +156,10 @@ This repository contains an overview of basic PostgreSQL commands, installation 
   ```sql
   SELECT column1, column2 FROM tablename WHERE condition;
   ```
+- **Using AND, OR conditions in WHERE:**
+  ```sql
+  SELECT * FROM tablename WHERE condition1 AND (condition2 OR condition3);
+  ```
 
 ## Query Clauses
 
