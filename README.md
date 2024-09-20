@@ -236,7 +236,10 @@ This repository contains an overview of basic PostgreSQL commands, installation 
   ```bash
   pg_dump dbname > backupfile.sql
   ```
-
+- **Backup only the schema (pre-data including indexes, sequences, etc.):**
+  ```bash
+  pg_dump --schema-only dbname > schema_backup.sql
+  ```
 - **Restore a Database:**
   ```bash
   psql dbname < backupfile.sql
